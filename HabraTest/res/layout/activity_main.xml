@@ -26,15 +26,6 @@
         android:text="@string/button" />
 
     <CheckBox
-        android:id="@+id/checkBox1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="42dp"
-        android:text="CheckBox" />
-
-    <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,5 +33,28 @@
         android:layout_below="@+id/checkBox1"
         android:layout_marginTop="16dp"
         android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="168dp"
+        android:layout_marginLeft="19dp"
+        android:text="CheckBox" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkBox1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
